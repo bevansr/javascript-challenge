@@ -15,11 +15,9 @@ tableData.forEach((ufoSightings) => {
 
 // Select the button and the form
 var button = d3.select("#filter-btn");
-var form = d3.select("form");
-console.log(form);
-// Create event handlers
+
+// Create event handler
 button.on("click", runEnter);
-form.on("submit",runEnter);
 
 function runEnter() {
   // Prevent the page from refreshing

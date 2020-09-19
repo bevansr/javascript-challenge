@@ -16,7 +16,7 @@ tableData.forEach((ufoSightings) => {
 // Select the button and the form
 var button = d3.select("#filter-btn");
 
-// Create event handlers
+// Create event handler
 button.on("click", runEnter);
 
 function runEnter() {
@@ -77,5 +77,5 @@ function runEnter() {
         var cell = row.append("td");
         cell.text(value);
     });
-});
+  });
 };
